@@ -8,10 +8,11 @@ public class PlayerController : MonoBehaviour
     public Item itemInHand;
     public Sprite key, scissor, rug;
 
-    private SpriteRenderer sr;
+    private Animator animator;
     private Vector2 inputVector = Vector2.zero;
     private Rigidbody2D rb;
     private bool isFacingRight = true;
+    private bool isMoving = false;
 
     void Start()
     {
@@ -22,24 +23,25 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale = 0;
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
-
-        if(!TryGetComponent<SpriteRenderer>(out sr))
+        if(!TryGetComponent<Animator>(out animator))
         {
-            Debug.LogError("NO SPRITE RENDERER FOUND!");
+            Debug.LogError("CANT FIND ANIMATOR!");
         }
     }
 
     void Update()
     {
         inputVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        animator.SetBool("isMoving", (inputVector.magnitude != 0));
 
         if (inputVector.x != 0) //moving
         {
+
             if ((inputVector.x > 0) != isFacingRight)
             {
                 //flip texture
                 isFacingRight = (inputVector.x > 0);
-				sr.flipX = !isFacingRight;
+                gameObject.transform.localScale = new Vector3( (isFacingRight)? 1 : -1 ,1,1);
             }
         }
     }

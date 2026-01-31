@@ -14,7 +14,7 @@ public class Item : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		var player = collision.gameObject.GetComponent<PlayerController>();
-		if(player.ItemInHand == null)
+		if(player != null && player.ItemInHand == null)
 		{
 			player.ItemInHand = this;
 			gameObject.SetActive(false);

@@ -7,13 +7,16 @@ public enum ItemType { Key, Scissor, Rug }
 public class Item : MonoBehaviour
 {
 	public ItemType type;
+	public Sprite asUsedSprite;
+
+	public Sprite inHandSprite;
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		var player = collision.gameObject.GetComponent<PlayerController>();
-		if(player.itemInHand == null)
+		if(player.ItemInHand == null)
 		{
-			player.itemInHand = this;
+			player.ItemInHand = this;
 			gameObject.SetActive(false);
 		}
 	}

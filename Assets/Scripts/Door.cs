@@ -7,9 +7,9 @@ public class Door : MonoBehaviour
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		var player = collision.gameObject.GetComponent<PlayerController>();
-		if(player.itemInHand != null && player.itemInHand.type == ItemType.Key)
+		if(player.ItemInHand != null && player.ItemInHand.type == ItemType.Key)
 		{
-			player.itemInHand = null;
+			player.ItemInHand = null;
 			Destroy(gameObject);
 		}
 	}

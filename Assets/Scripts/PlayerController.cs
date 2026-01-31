@@ -5,8 +5,21 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Vector2 movementSpeed = Vector2.one;
-    public Item itemInHand;
+    private Item itemInHand;
+    public Item ItemInHand
+    {
+        get => itemInHand;
+        
+        set
+        {
+            itemInHand = value;
+            if(value != null)
+                handSlot.sprite = value.inHandSprite;
+            else handSlot.sprite = null;
+        }
+    }
     public Sprite key, scissor, rug;
+    public SpriteRenderer handSlot;
 
     private Animator animator;
     private Vector2 inputVector = Vector2.zero;

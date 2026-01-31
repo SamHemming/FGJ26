@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: {x: 5, y: 5}
-  itemInHand: {fileID: 0}
   key: {fileID: 0}
   scissor: {fileID: 0}
   rug: {fileID: 0}
+  handSlot: {fileID: 3716600613932551375}

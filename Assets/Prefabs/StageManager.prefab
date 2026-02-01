@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31132078, g: 0.18649878, b: 0.18649878, a: 0.7764706}
+  m_Color: {r: 0.06233316, g: 0.046279818, b: 0.1509434, a: 0.7764706}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
@@ -243,6 +243,44 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1748720829849977556, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_text
+      value: 'Victory!
+
+        Have A Nice Nightmare :3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748720829849977556, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_fontSize
+      value: 52.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748720829849977556, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 52.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377324406518615003, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6144162565451999565, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -322,6 +360,76 @@ PrefabInstance:
     - target: {fileID: 6144162565451999565, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891657429375592403, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198009290289936192, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_text
+      value: 'Defeat
+
+        Try To Fright Another Night'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198009290289936192, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_fontSize
+      value: 47.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198009290289936192, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 47.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317755885866524812, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317755885866524812, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317755885866524812, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21520111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317755885866524812, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.27596962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948492933429382628, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948492933429382628, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948492933429382628, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948492933429382628, guid: 218a21a10f0f14eec87a140b59f5672a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.39
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

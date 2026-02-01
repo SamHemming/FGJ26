@@ -179,6 +179,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 172976d85a2220844931cd40d9d8fb65, type: 3}
+--- !u!212 &385078181 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7597083432384542777, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+  m_PrefabInstance: {fileID: 1969859708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1210140777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,13 +363,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1888718889851778818, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4789073285977608198, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.64
+      value: 2.79
       objectReference: {fileID: 0}
     - target: {fileID: 4789073285977608198, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.09
+      value: -3.69
       objectReference: {fileID: 0}
     - target: {fileID: 4789073285977608198, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
       propertyPath: m_LocalPosition.z
@@ -398,9 +407,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029887986058038664, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: altFace
+      value: 
+      objectReference: {fileID: 385078181}
+    - target: {fileID: 5029887986058038664, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: verticalMovement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716519636673982205, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7152682
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716519636673982205, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.69885015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716519636673982205, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -88.67
+      objectReference: {fileID: 0}
     - target: {fileID: 5962252518368561253, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
       propertyPath: m_Name
       value: Patrol
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597083432384542777, guid: 14e2a3e6fe2e516418e6b877865d7505, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

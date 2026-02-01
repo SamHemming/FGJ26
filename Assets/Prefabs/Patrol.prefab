@@ -114,7 +114,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -160,14 +160,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7792519886645818037}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.0040741907, w: 0.9999918}
+  m_LocalRotation: {x: -0, y: -0, z: -0.69885015, w: 0.7152682}
   m_LocalPosition: {x: -0.034, y: 0.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4186327868690418236}
   m_Father: {fileID: 4789073285977608198}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.67}
 --- !u!1001 &6150196134906685912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,11 +182,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.67
+      value: 2.79
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.12
+      value: -3.69
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
       propertyPath: m_LocalPosition.z
@@ -218,6 +218,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4884257228286144031, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1599312109443578301, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
@@ -349,7 +353,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 178b44473098f4182b059d63d6e0c081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalMovement: 0
+  verticalMovement: 1
   patrolDistance: 5
   movementSpeed: 1
   hinge: {fileID: 7792519886645818037}
+  altFace: {fileID: 7597083432384542777}
+--- !u!212 &7597083432384542777 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: -4884257228286144031, guid: 6c215bb93db4efb4ca0b3d5f20221805, type: 3}
+  m_PrefabInstance: {fileID: 6150196134906685912}
+  m_PrefabAsset: {fileID: 0}

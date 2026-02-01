@@ -6,6 +6,7 @@ public class ElectricBox : MonoBehaviour
 {
     public Sprite shutDownSprite;
     public CCTV cctv;
+    public GameObject particles;
 
     private bool isActive = true;
     private SpriteRenderer sr;
@@ -23,6 +24,7 @@ public class ElectricBox : MonoBehaviour
             sr.sprite = shutDownSprite;
             isActive = false;
             cctv.IsActive = false;
+            particles.SetActive(true);
 		}
 	}
 }

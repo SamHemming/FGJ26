@@ -31,7 +31,8 @@ Transform:
   m_LocalPosition: {x: -8.09, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8417262949081619122}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2724111037324935167
@@ -100,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shutDownSprite: {fileID: 21300000, guid: 8ea3d699a3ae95a488d5734573f4f1aa, type: 3}
   cctv: {fileID: 0}
+  particles: {fileID: 4067541160667298970}
 --- !u!61 &6888624564044174656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,3 +147,78 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.24, y: 1.29}
   m_EdgeRadius: 0
+--- !u!1001 &8921619352910104135
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5602710813505750923}
+    m_Modifications:
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0069999695
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.18599987
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141878399452860408, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881122076610509533, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_Name
+      value: Electricity System
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881122076610509533, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+--- !u!1 &4067541160667298970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4881122076610509533, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+  m_PrefabInstance: {fileID: 8921619352910104135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8417262949081619122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1089824408000011509, guid: 678b73a3d94237446b0ebd65f7ddf3e6, type: 3}
+  m_PrefabInstance: {fileID: 8921619352910104135}
+  m_PrefabAsset: {fileID: 0}

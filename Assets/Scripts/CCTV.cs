@@ -80,8 +80,11 @@ public class CCTV : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        IsActive = false;
+        var player = collision.gameObject.GetComponent<PlayerController>();
+        if(player == null) return;
+        
+        StageManager.Singleton.Defeat();
     }
 }

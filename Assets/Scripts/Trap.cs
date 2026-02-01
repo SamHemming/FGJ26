@@ -30,6 +30,7 @@ public class Trap : MonoBehaviour
         else
         {
             //gameover
+            StageManager.Singleton.Defeat();
         }
     }
 }

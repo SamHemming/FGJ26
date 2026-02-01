@@ -18,7 +18,8 @@ public class Trap : MonoBehaviour
         if(!isArmed) return;
 
         var player = collider.gameObject.GetComponent<PlayerController>();
-        
+        if(player == null) return;
+
         if(player.ItemInHand != null && player.ItemInHand.type == ItemType.Rug)
         {
             //disarm trap
@@ -31,6 +32,7 @@ public class Trap : MonoBehaviour
         {
             //gameover
             StageManager.Singleton.Defeat();
+            player.Trapped();
         }
     }
 }

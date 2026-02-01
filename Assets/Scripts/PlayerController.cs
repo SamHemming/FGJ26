@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 inputVector = Vector2.zero;
     private Rigidbody2D rb;
     private bool isFacingRight = true;
-    private bool isMoving = false;
+    private bool isTrapped = false;
 
     void Start()
     {
@@ -45,6 +46,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         inputVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        if(isTrapped) inputVector = Vector2.zero;
         animator.SetBool("isMoving", (inputVector.magnitude != 0));
 
         if (inputVector.x != 0) //moving
@@ -63,4 +65,10 @@ public class PlayerController : MonoBehaviour
 	{
 		rb.MovePosition(rb.position + (inputVector * movementSpeed * Time.deltaTime));
 	}
+
+    public void Trapped()
+    {
+        isTrapped = true;
+        animator.SetTrigger("Trapped");
+    }
 }

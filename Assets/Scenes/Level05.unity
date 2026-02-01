@@ -8223,11 +8223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592436861671738573, guid: 2e5339abf4dfa42ecbd788d40c1c6d3f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.13
+      value: 1.16
       objectReference: {fileID: 0}
     - target: {fileID: 3592436861671738573, guid: 2e5339abf4dfa42ecbd788d40c1c6d3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.49
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 3592436861671738573, guid: 2e5339abf4dfa42ecbd788d40c1c6d3f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8327,7 +8327,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8352,7 +8352,7 @@ Transform:
   m_GameObject: {fileID: 1413597737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.66, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8423,6 +8423,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4555985720684406874, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_text
+      value: 'Defeat
+
+        Try To Fright Another Night'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555985720684406874, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a572640576194f818fea028298bc69c, type: 2}
+    - target: {fileID: 4555985720684406874, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8422121089920872677, guid: 3a572640576194f818fea028298bc69c, type: 2}
+    - target: {fileID: 4555985720684406874, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943509675436727758, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a572640576194f818fea028298bc69c, type: 2}
+    - target: {fileID: 4943509675436727758, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8422121089920872677, guid: 3a572640576194f818fea028298bc69c, type: 2}
+    - target: {fileID: 4943509675436727758, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5856197637744856953, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6004573000013146661, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2990463
@@ -8466,6 +8500,10 @@ PrefabInstance:
     - target: {fileID: 9140532858288884684, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
       propertyPath: m_Name
       value: StageManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212962368073396944, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

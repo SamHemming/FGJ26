@@ -1788,6 +1788,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4555985720684406874, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_text
+      value: 'Defeat
+
+        Try to fright another night'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943509675436727758, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
+      propertyPath: m_text
+      value: 'Victory!
+
+        Have a nice nightmare!'
+      objectReference: {fileID: 0}
     - target: {fileID: 6004573000013146661, guid: 7b235dd19309441ceb0f293de8b8a0aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2990463
